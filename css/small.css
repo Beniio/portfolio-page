@@ -39,9 +39,10 @@ nav a {
   padding: .8rem 0;
   color: white;
   text-align: center; 
+  text-decoration: none;
 }
 nav li.active {background-color: rgba(0,0,0,0.5);}
-nav a:hover {background-color: rgba(0,0,0,0.2) ;}
+nav a:hover {background-color: rgba(24, 22, 22, 0.2) ;}
 nav ul.open {display: block;}
 nav ul {display: none;}
 
@@ -49,13 +50,13 @@ nav ul {display: none;}
   position: absolute;
   top: 30%;
   left: 45%;
-  margin-top: -50px;
-  margin-left: -50px;
+  /* margin-top: 50px;
+  margin-left: 50px; */
   color: white;
 }
 
 .name {
-  left: 30%
+  left: 25%
 }
 
 .logo {
