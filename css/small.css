@@ -10,10 +10,9 @@ body{
 }
 
 img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   padding: 1px;
-  border: 0.5px solid #3d3b3b;      
   border-radius: 50%;
 }
 
@@ -21,47 +20,73 @@ h1 {
   color: #F4F4F4;
 }
 
+h2 {
+  color: #4a4a4a;
+}
 
 button#hamburgerBtn {
   background: none;
   border: none;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   cursor: pointer;
-  padding: 0 30px 0 2vw;
+  padding: 10px 30px 0 2vw;
 }
 
-nav {background-color: #070707 ;}
-nav ul {margin:0; padding: 0;}
-nav ul li {list-style-type: none;}
+nav {
+  background-color: #070707;
+}
+nav ul {
+  margin:0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+
+}
+
 nav a {
   display: block;
   padding: .8rem 0;
-  color: white;
+  color: #4a4a4a;
   text-align: center; 
   text-decoration: none;
 }
-nav li.active {background-color: rgba(0,0,0,0.5);}
-nav a:hover {background-color: rgba(24, 22, 22, 0.2) ;}
-nav ul.open {display: block;}
-nav ul {display: none;}
+nav li.active {
+  background-color: rgba(0,0,0,0.5);
+}
+nav a:hover {
+  color: white;
+}
+nav ul.open {
+  display: block;
+
+}
+nav ul {
+  display: none;
+}
 
 .profile {
   position: absolute;
   top: 30%;
   left: 45%;
-  /* margin-top: 50px;
-  margin-left: 50px; */
   color: white;
 }
 
 .name {
-  left: 25%
+  left: 25%;
+  margin: -50px;
+  padding-top: 40px;
+}
+
+.description {
+  padding-top: 25px;
 }
 
 .logo {
   color: white;
   left: 10px;
+  padding: 30px;
 }
 
 .row {clear: both;}
@@ -70,7 +95,7 @@ nav ul {display: none;}
   margin: auto;
 }
 
-.column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+/* .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;} */
 
 .small-12{width : 100%}
 

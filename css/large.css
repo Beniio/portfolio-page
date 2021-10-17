@@ -1,9 +1,9 @@
 @media only screen and (min-width: 1024px) {
 
   .large-3 {width: 30%;}
-
   nav ul {margin-left: 2vw;}
-  nav li {width: auto;}
-  nav a {padding: .7rem 1rem;}
+  nav li {width: right;}
+  nav button {display: none;}
+  nav li {width: 25%; float: left}
 
 }
