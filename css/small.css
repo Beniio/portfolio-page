@@ -42,9 +42,10 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-
 }
-
+nav ul li a.active{
+  color: white;
+}
 nav a {
   display: block;
   padding: .8rem 0;
@@ -53,7 +54,7 @@ nav a {
   text-decoration: none;
 }
 nav li.active {
-  background-color: rgba(0,0,0,0.5);
+ color: white;
 }
 nav a:hover {
   color: white;
@@ -64,6 +65,11 @@ nav ul.open {
 }
 nav ul {
   display: none;
+}
+
+span{
+  font-family: inherit;
+  font-size: 24px;
 }
 
 .profile {
@@ -80,6 +86,7 @@ nav ul {
 }
 
 .description {
+  margin: -30px;
   padding-top: 25px;
 }
 
@@ -89,13 +96,23 @@ nav ul {
   padding: 30px;
 }
 
+.social {
+  display: block;
+  margin: 5px 0 0 0px;
+}
+
+a.link-button {
+  color: inherit;
+  font-family: inherit;
+  margin: 17px;
+  text-decoration: none;
+}
+
 .row {clear: both;}
 .limited {
   max-width: 1140px;
   margin: auto;
 }
-
-/* .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;} */
 
 .small-12{width : 100%}
 
