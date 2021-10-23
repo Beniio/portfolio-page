@@ -24,6 +24,12 @@ h2 {
   color: #4a4a4a;
 }
 
+p {
+  color: #4a4a4a;
+  text-align: center; 
+  text-decoration: none;
+}
+
 button#hamburgerBtn {
   background: none;
   border: none;
@@ -61,7 +67,6 @@ nav a:hover {
 }
 nav ul.open {
   display: block;
-
 }
 nav ul {
   display: none;
@@ -70,6 +75,15 @@ nav ul {
 span{
   font-family: inherit;
   font-size: 24px;
+}
+
+div#latest-commit{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 .profile {
@@ -115,4 +129,3 @@ a.link-button {
 }
 
 .small-12{width : 100%}
-
