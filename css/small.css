@@ -26,8 +26,13 @@ h2 {
 
 p {
   color: #4a4a4a;
-  text-align: center; 
+  font-size: 16px;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #769DFF;
 }
 
 button#hamburgerBtn {
@@ -72,22 +77,43 @@ nav ul {
   display: none;
 }
 
-span{
+span {
   font-family: inherit;
   font-size: 24px;
 }
 
-div#latest-commit{
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+.commit-date {
+  margin: 0 0 0 -10px;
+}
+
+.last-commit{
+  display: flex;
+  align-items: flex-start;
+  width: 250px;
+}
+
+div#last-commit{
+  margin: 400px 0 0 50px;
+}
+
+
+.item{
+  margin: 0 4px 0 4px;
+}
+
+.commit-title{
+  margin: 0 0 0 0;
+}
+
+.date-container{
+  display: flex; 
+  margin: 10px;
+  width: auto;
 }
 
 .profile {
   position: absolute;
+  flex-direction: row;
   top: 30%;
   left: 45%;
   color: white;
