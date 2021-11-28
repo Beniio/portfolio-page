@@ -28,30 +28,39 @@
     </div>
   </nav>
   <br>
-  <div id="last-commit">
-    <h2>Last commit</h2>
-    <a class="commit-title"></a>
-    <br>
-    <div class=date-container>
-      <p class="commit-date"></p>
-      <p class="item">in</p>
-      <a class="repo-title"></a>
-    </div>
-  </div>
-  <div id="projects">
-    <h2>Last Repos</h2>
-    <div id="latest-repos-container">
-      <template id="latest-repos-template">
-        <div class="column">
-          <h4 class="title">
-            <a class="latest-repos-title" href></a>
-            <a class="latest-repos-language" href></a>
-          </h4>
-          <p class="latest-repos-description"></p>
+  <div class='some-page-wrapper'>
+    <div class='row' id="repos">
+      <div class="column">
+        <div id="last-commit">
+          <h2>Last commit</h2>
+          <a class="commit-title"></a>
+          <br>
+          <div class=date-container>
+            <p class="commit-date"></p>
+            <p class="item">in</p>
+            <a class="repo-title"></a>
+          </div>
         </div>
-      </template>
+      </div>
+      <div class="column">
+        <div id="projects">
+          <h2>Last Repos</h2>
+          <div id="latest-repos-container">
+            <template id="latest-repos-template">
+              <div class="column">
+                <h4 class="title">
+                  <a class="latest-repos-title" href></a>
+                  <a class="latest-repos-language" href></a>
+                </h4>
+                <p class="latest-repos-description"></p>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
 
   <script src="js/menuToggle.js"></script>
   <script src="js/lastCommit.js"></script>

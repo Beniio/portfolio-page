@@ -13,10 +13,7 @@
 	});
 
 	const json = await response.json();
-	console.log(json);
-	const isDev = ['localhost', '127.0.0.1'].includes(location.hostname);
 	const insertHypenationHintsForCamelCase = string => string.replace(/([a-z])([A-Z])/g, '$1\u00AD$2');
-
 	const textColorFromBackgroundColor = color => {
 		if (color.length < 5) {
 			color += color.slice(1);

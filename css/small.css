@@ -93,9 +93,12 @@ span {
 }
 
 div#last-commit{
-  margin: 400px 0 0 50px;
+  margin: 150px 0 0 50px;
 }
 
+div#projects{
+  margin: 50px 0 0 50px;
+}
 
 .item{
   margin: 0 4px 0 4px;
@@ -155,3 +158,20 @@ a.link-button {
 }
 
 .small-12{width : 100%}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.row#repos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.some-page-wrapper {
+  margin: 5px;
+}
