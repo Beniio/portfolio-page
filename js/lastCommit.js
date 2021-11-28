@@ -12,7 +12,7 @@
 		headers: {
 			'User-Agent': 'request'
 		}
-}
+	}
 	);
 	const json = await response.json();
 	let latestCommit;
