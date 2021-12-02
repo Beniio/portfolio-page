@@ -92,6 +92,16 @@ span {
   width: 250px;
 }
 
+.contact{
+  display:flex;
+  flex-direction: column;
+  width: 5000px;
+}
+
+.email{
+  display: flex-start;
+}
+
 div#last-commit{
   margin: 150px 0 0 50px;
 }
