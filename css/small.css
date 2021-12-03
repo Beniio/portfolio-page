@@ -95,7 +95,13 @@ span {
 .contact{
   display:flex;
   flex-direction: column;
-  width: 5000px;
+  width: 500px;
+}
+
+.about{
+  display:flex;
+  flex-direction: column;
+  width: 500px;
 }
 
 .email{
