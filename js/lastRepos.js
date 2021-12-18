@@ -33,14 +33,13 @@
 		const a = content.querySelector('.latest-repos-title');
 		a.href = repo.html_url;
 		a.textContent = insertHypenationHintsForCamelCase(repo.name);
-
 		const lang = content.querySelector('.latest-repos-language');
-
-		if (repo.primaryLanguage) {
-			lang.textContent = repo.primaryLanguage.name;
-			lang.style.color = textColorFromBackgroundColor(repo.primaryLanguage.color);
-			lang.style.backgroundColor = repo.primaryLanguage.color;
-			const query = `user:Beniio user:chalk user:avajs user:xojs language:${repo.primaryLanguage.name.toLowerCase()} archived:false`;
+		console.log(repo)
+		if (repo.language) {
+			lang.textContent = repo.language;
+			lang.style.color = textColorFromBackgroundColor(repo.language);
+			lang.style.backgroundColor = repo.language;
+			const query = `user:Beniio user:chalk user:avajs user:xojs language:${repo.language.toLowerCase()} archived:false`;
 			const url = new URL('https://github.com/search');
 			url.searchParams.append('q', query);
 			lang.href = url;
