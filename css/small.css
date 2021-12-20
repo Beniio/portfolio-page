@@ -191,3 +191,7 @@ a.link-button {
 .some-page-wrapper {
   margin: 5px;
 }
+
+a.latest-repos-language {
+  font-size: 12px;
+}

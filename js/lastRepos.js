@@ -40,15 +40,18 @@
 		var colors = await fetch(urlColors)
 			.then(res => res.json());		
 		var color = colors[repo.language].color
-		if (repo.language) {
-			lang.textContent = repo.language;
+		
+		if(repo.language) {
+			
+      lang.textContent = repo.language;
 			lang.style.color = textColorFromBackgroundColor(color);
 			lang.style.backgroundColor = color;
 			const query = `user:Beniio user:chalk user:avajs user:xojs language:${repo.language.toLowerCase()} archived:false`;
 			const url = new URL('https://github.com/search');
 			url.searchParams.append('q', query);
 			lang.href = url;
-		} else {
+		
+    } else {
 			lang.classList.add('is-unclickable');
 		}
 
