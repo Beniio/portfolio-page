@@ -93,15 +93,17 @@ span {
 }
 
 .contact{
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 500px;
+  margin: 100px 0 0 500px;
 }
 
 .about{
-  display:flex;
+ display: flex;
   flex-direction: column;
   width: 500px;
+  margin: 100px 0 0 500px;
 }
 
 .email{
