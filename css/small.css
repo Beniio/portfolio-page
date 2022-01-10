@@ -89,61 +89,12 @@ span {
   font-size: 24px;
 }
 
-.commit-date {
-  margin: 0 0 0 -10px;
-}
-
-.last-commit {
-  display: flex;
-  align-items: flex-start;
-  width: 250px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  margin: 100px 0 0 500px;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  margin: 100px 0 0 500px;
-}
-
-.email {
-  display: flex-start;
-}
-
-div#last-commit {
-  margin: 150px 0 0 50px;
-}
-
-div#projects {
-  margin: 50px 0 0 50px;
-}
-
-.item {
-  margin: 0 4px 0 4px;
-}
-
-.commit-title {
-  margin: 0 0 0 0;
-}
-
-.date-container {
-  display: flex;
-  margin: 10px;
-  width: auto;
-}
-
+/* INDEX */
 .profile {
   position: absolute;
   flex-direction: row;
-  top: 30%;
-  left: 45%;
+  top: 40%;
+  left: 40%;
   color: white;
 }
 
@@ -152,7 +103,6 @@ div#projects {
   margin: -50px;
   padding-top: 40px;
 }
-
 .description {
   margin: -30px;
   padding-top: 25px;
@@ -176,24 +126,17 @@ a.link-button {
   text-decoration: none;
 }
 
-.row {
-  clear: both;
-}
-.limited {
-  max-width: 1140px;
-  margin: auto;
+/* REPO */
+.commit-date {
+  margin: 0 0 0 -10px;
 }
 
-.small-12 {
-  width: 100%;
-}
-
-.column {
+.last-commit {
   display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  align-items: flex-start;
+  width: 250px;
 }
+
 .row#repos {
   display: flex;
   flex-direction: row;
@@ -207,4 +150,61 @@ a.link-button {
 
 a.latest-repos-language {
   font-size: 12px;
+}
+
+div#last-commit {
+  margin: 150px 0 0 50px;
+}
+
+div#projects {
+  margin: 50px 0 0 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.date-container {
+  display: flex;
+  margin: 10px;
+  width: auto;
+}
+
+.item {
+  margin: 0 4px 0 4px;
+}
+
+.commit-title {
+  margin: 0 0 0 0;
+}
+
+.row {
+  clear: both;
+}
+.limited {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 100px 0 0 500px;
+}
+
+.email {
+  display: flex-start;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 100px 0 0 500px;
 }
