@@ -1,12 +1,19 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  background-color:#070707;
+  background-color: #070707;
 }
 
 img {
@@ -17,7 +24,7 @@ img {
 }
 
 h1 {
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 h2 {
@@ -32,7 +39,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #769DFF;
+  color: #769dff;
 }
 
 button#hamburgerBtn {
@@ -48,24 +55,24 @@ nav {
   background-color: #070707;
 }
 nav ul {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 nav ul li {
   list-style-type: none;
 }
-nav ul li a.active{
+nav ul li a.active {
   color: white;
 }
 nav a {
   display: block;
-  padding: .8rem 0;
+  padding: 0.8rem 0;
   color: #4a4a4a;
-  text-align: center; 
+  text-align: center;
   text-decoration: none;
 }
 nav li.active {
- color: white;
+  color: white;
 }
 nav a:hover {
   color: white;
@@ -86,48 +93,48 @@ span {
   margin: 0 0 0 -10px;
 }
 
-.last-commit{
+.last-commit {
   display: flex;
   align-items: flex-start;
   width: 250px;
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin: 100px 0 0 500px;
 }
 
-.about{
- display: flex;
+.about {
+  display: flex;
   flex-direction: column;
   width: 500px;
   margin: 100px 0 0 500px;
 }
 
-.email{
+.email {
   display: flex-start;
 }
 
-div#last-commit{
+div#last-commit {
   margin: 150px 0 0 50px;
 }
 
-div#projects{
+div#projects {
   margin: 50px 0 0 50px;
 }
 
-.item{
+.item {
   margin: 0 4px 0 4px;
 }
 
-.commit-title{
+.commit-title {
   margin: 0 0 0 0;
 }
 
-.date-container{
-  display: flex; 
+.date-container {
+  display: flex;
   margin: 10px;
   width: auto;
 }
@@ -169,13 +176,17 @@ a.link-button {
   text-decoration: none;
 }
 
-.row {clear: both;}
+.row {
+  clear: both;
+}
 .limited {
   max-width: 1140px;
   margin: auto;
 }
 
-.small-12{width : 100%}
+.small-12 {
+  width: 100%;
+}
 
 .column {
   display: flex;
