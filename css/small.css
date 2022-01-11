@@ -90,12 +90,18 @@ span {
 }
 
 /* INDEX */
-.profile {
+.wrapper {
   position: absolute;
   flex-direction: row;
-  top: 40%;
-  left: 40%;
+  bottom: 30%;
+  right: 47%;
   color: white;
+}
+
+.profile {
+  left: 50%;
+  position: relative;
+  top: 80%;
 }
 
 .name {
@@ -103,6 +109,7 @@ span {
   margin: -50px;
   padding-top: 40px;
 }
+
 .description {
   margin: -30px;
   padding-top: 25px;
@@ -111,7 +118,6 @@ span {
 .logo {
   color: white;
   left: 10px;
-  padding: 30px;
 }
 
 .social {
